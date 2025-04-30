@@ -13,7 +13,7 @@ const Profile = () => {
                 <p className="text-gray-400">rage@ragaven.com</p>
              </div>
         </div>
-        <button className="bg-cyan-600 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded transition duration-300 w-full sm:w-auto hover:scale-95">Edit Profile</button>
+        <button className="bg-gradient-to-br from-cyan-400 to-fuchsia-400 text-white font-bold py-2 px-4 rounded transition duration-300 w-full sm:w-auto hover:scale-95">Edit Profile</button>
 
     </SettingsPageContainer>
   )

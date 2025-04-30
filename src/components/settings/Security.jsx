@@ -10,7 +10,7 @@ const Security = () => {
         <ToggleSwtich label={"Multi Factor Notifications"}
         isOn={multiFactor}
         OnToggle={() => setMultiFactor(!multiFactor)}/>
-        <button className="bg-cyan-600 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded transition duration-300 w-full sm:w-auto hover:scale-95 mt-3">
+        <button className="bg-gradient-to-br from-cyan-400 to-fuchsia-400 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded transition duration-300 w-full sm:w-auto hover:scale-95 mt-3">
             Change Security Key
         </button>
 

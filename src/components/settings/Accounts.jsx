@@ -33,7 +33,7 @@ const Accounts = () => {
                     <span className='text-gray-100'>{account.name}</span>
                 </div>
                 <button className={`px-3 py-3 rounded 
-                    ${account.connected ? "bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-fuchsia-600":
+                    ${account.connected ? "bg-gradient-to-br from-cyan-400 to-fuchsia-400 hover:to-fuchsia-600":
                     "bg-gray-500 hover:bg-gray-700"} transition duration-200`}
                     onClick={() => {
                         setAccountsSigned(
@@ -51,7 +51,7 @@ const Accounts = () => {
                 </button>
             </div>
         ))}
-        <button className="bg-gray-600 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded transition duration-600 w-full sm:w-auto hover:scale-95 hover:bg-gradient-to-r from-cyan-400 to-fuchsia-500 mt-3">
+        <button className="bg-gray-600 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded transition duration-600 w-full sm:w-auto hover:scale-95 hover:bg-gradient-to-br from-cyan-400 to-fuchsia-500 mt-3">
             + Add Accounts
         </button>
     </SettingsPageContainer>
