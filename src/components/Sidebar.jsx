@@ -2,6 +2,7 @@ import { BarChart2, IndianRupee, Menu, Settings, ShoppingBag, ShoppingCart, Tren
 import React, { useState } from 'react'
 import {AnimatePresence, motion} from "framer-motion"
 import { Link } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle'
 
 const SIDEBAR_ITEMS = [
     {name:"Overview", icon: BarChart2, color:"#95fff6", path:'/'},
@@ -46,9 +47,12 @@ const Sidebar = () => {
                         </motion.div>
                     </Link>
                 ))}
+                <ThemeToggle/>
             </nav>
         </div>
+        
     </motion.div>
+    
   )
 }
 

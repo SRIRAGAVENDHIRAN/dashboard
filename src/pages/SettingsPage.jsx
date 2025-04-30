@@ -5,6 +5,7 @@ import Notification from '../components/settings/Notification'
 import Security from '../components/settings/Security'
 import Accounts from '../components/settings/Accounts'
 import DeleteAccountCard from '../components/settings/DeleteAccountCard'
+import ThemeToggle from '../components/ThemeToggle'
 
 const SettingsPage = () => {
   return (
