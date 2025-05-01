@@ -20,6 +20,7 @@ const SalesOverviewChart = () => {
         >
             <div className="flex items-center justify-between mb-5">
                 <h2 className="text-xl font-semibold text-gray-100">Sales Overview</h2>
+                <div className="w-full overflow-x-auto">
                 <select className="bg-pink-800 text-white rounded-md px-3 py-1 focus:outline-none focus:ring-2 focus:ring-pink-400 
                 " value = {selectedTimeRange} onChange={(e) => setSelectedTimeRange(e.target.value)}>
                     <option value="">This Month</option>
@@ -27,6 +28,7 @@ const SalesOverviewChart = () => {
                     <option value="">Past Two Month</option>
                     <option value="">Past Six Month</option>
                 </select>
+                </div>
             </div>
 
             <div className="w-full h-80">
